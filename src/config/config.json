@@ -1,0 +1,31 @@
+{
+  "development": {
+    "database":"newsport_database_dev",
+    "username":"root",
+    "password":"123456",
+    "writeConnection" : {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql",
+      "timezone": "+08:00",
+      "pool": {
+        "max": 50,
+        "min": 10,
+        "idle": 10000
+      },
+      "retry": 5
+    },
+    "readConnection" : {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql",
+      "timezone": "+08:00",
+      "pool": {
+        "max": 50,
+        "min": 10,
+        "idle": 10000
+      },
+      "retry": 5
+    }
+  }
+}
